@@ -98,10 +98,4 @@ public class Aluno {
         this.cpf = cpf;
     }
 
-    public String getSobrenome() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    public void carregarTelefone(String telefone) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+}

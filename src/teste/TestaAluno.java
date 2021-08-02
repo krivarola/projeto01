@@ -33,7 +33,7 @@ public class TestaAluno {
        
        String telefone = JOptionPane.
                                 showInputDialog("Digite o telefone do aluno");
-       aluno.carregarTelefone(telefone);
+//       aluno.carregarTelefone(telefone);
        System.out.println("Telefone: " + aluno.getTelefone());
        
        
@@ -47,15 +47,14 @@ public class TestaAluno {
    //  String salario = JOptionPane.showInputDialog("Digite o salário");
    //  aluno.salario = Float.parseFloat(salario);
      
-     aluno.salario = Float.parseFloat(JOptionPane.
-                                           showInputDialog("Digite o salário"));
+//     aluno.salario = Float.parseFloat(JOptionPane.showInputDialog("Digite o salário"));
            
-     aluno.cpf = Long.parseLong(JOptionPane.
-                                            showInputDialog("Digite o cpf"));
-        
-       JOptionPane.showMessageDialog(null, "Nome: " + aluno.nome 
-               + " " + aluno.sobrenome + "\nIdade: " + aluno.idade 
-               + "\nSalario: " + aluno.salario);
+//     aluno.cpf = Long.parseLong(JOptionPane.
+//                                            showInputDialog("Digite o cpf"));
+//        
+//       JOptionPane.showMessageDialog(null, "Nome: " + aluno.nome 
+//               + " " + aluno.sobrenome + "\nIdade: " + aluno.idade 
+//               + "\nSalario: " + aluno.salario);
 
     }   
     
